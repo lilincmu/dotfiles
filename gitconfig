@@ -9,3 +9,5 @@
 	co = checkout
         rsh = reset --soft HEAD^
         pom = push origin master
+[pull]
+	rebase = true

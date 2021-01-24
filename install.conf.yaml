@@ -6,6 +6,8 @@
 
 - link:
     ~/.zshrc:
+    ~/.oh-my-zsh:
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
     ~/.vimrc:
     ~/.tmux.conf:
     ~/.gitconfig:
