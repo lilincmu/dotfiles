@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = lilincmu
+	email = lilincmu@gmail.com
+[alias]
+	st = status
+	ci = commit -m
+	br = branch
+	co = checkout
+        rsh = reset --soft HEAD^
+        pom = push origin master
