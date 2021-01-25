@@ -122,3 +122,8 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # fzf
 export FZF_BASE=/usr/local/opt/fzf
+
+# homebrew-file
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi

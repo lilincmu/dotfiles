@@ -1,41 +1,134 @@
-# tap
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/core"
-tap "homebrew/services"
-tap "romkatv/powerlevel10k"
 
-# brew
-brew "zsh" 
-brew "git"
-brew "tmux"
-brew "tree"
-brew "coreutils"
-brew "grep", link: false
-brew "jenkins-lts", restart_service: true
-brew "ant", link: false
-brew "openssl@1.1"
-brew "popt", link: false
-brew "python@3.9"
-brew "glib"
-brew "cairo"
-brew "p11-kit"
-brew "gnutls"
-brew "libass"
-brew "ffmpeg"
-brew "highlight", link: false
-brew "makedepend", link: false
-brew "maven", link: false
-brew "mpv", link: false
-brew "pipenv"
-brew "python@3.8"
-brew "shellcheck"
-brew "wget"
-brew "yasm", link: false
+# tap repositories and their packages
 
-# cask
-brew "fzf"
-cask "font-meslo-lg-nerd-font"
-cask "mpv"
-cask "xquartz"
+tap 'homebrew/core'
+brew 'ant'
+brew 'aom'
+brew 'bdw-gc'
+brew 'c-ares'
+brew 'cairo'
+brew 'coreutils'
+brew 'dav1d'
+brew 'ffmpeg'
+brew 'flac'
+brew 'fontconfig'
+brew 'freetype'
+brew 'frei0r'
+brew 'fribidi'
+brew 'fzf'
+brew 'gdbm'
+brew 'gettext'
+brew 'giflib'
+brew 'git'
+brew 'glib'
+brew 'gmp'
+brew 'gnutls'
+brew 'gobject-introspection'
+brew 'graphite2'
+brew 'grep'
+brew 'guile'
+brew 'harfbuzz'
+brew 'highlight'
+brew 'icu4c'
+brew 'jemalloc'
+brew 'jenkins-lts'
+brew 'jpeg'
+brew 'lame'
+brew 'leptonica'
+brew 'libarchive'
+brew 'libass'
+brew 'libb2'
+brew 'libbluray'
+brew 'libev'
+brew 'libevent'
+brew 'libffi'
+brew 'libidn2'
+brew 'libogg'
+brew 'libpng'
+brew 'libsamplerate'
+brew 'libsndfile'
+brew 'libsodium'
+brew 'libsoxr'
+brew 'libtasn1'
+brew 'libtiff'
+brew 'libtool'
+brew 'libunistring'
+brew 'libvidstab'
+brew 'libvorbis'
+brew 'libvpx'
+brew 'little-cms2'
+brew 'lua'
+brew 'luajit-openresty'
+brew 'lz4'
+brew 'lzo'
+brew 'makedepend'
+brew 'mas'
+brew 'maven'
+brew 'mpv'
+brew 'mujs'
+brew 'ncurses'
+brew 'nettle'
+brew 'nghttp2'
+brew 'opencore-amr'
+brew 'openjdk'
+brew 'openjdk@11'
+brew 'openjpeg'
+brew 'openssl@1.1'
+brew 'opus'
+brew 'p11-kit'
+brew 'pcre'
+brew 'pcre2'
+brew 'pipenv'
+brew 'pixman'
+brew 'pkg-config'
+brew 'popt'
+brew 'python@3.8'
+brew 'python@3.9'
+brew 'rav1e'
+brew 'readline'
+brew 'reattach-to-user-namespace'
+brew 'rtmpdump'
+brew 'rubberband'
+brew 'sdl2'
+brew 'shellcheck'
+brew 'snappy'
+brew 'speex'
+brew 'sqlite'
+brew 'srt'
+brew 'tcl-tk'
+brew 'tesseract'
+brew 'theora'
+brew 'tmux'
+brew 'tree'
+brew 'uchardet'
+brew 'unbound'
+brew 'utf8proc'
+brew 'vapoursynth'
+brew 'webp'
+brew 'wget'
+brew 'x264'
+brew 'x265'
+brew 'xvid'
+brew 'xz'
+brew 'yasm'
+brew 'youtube-dl'
+brew 'zeromq'
+brew 'zimg'
+brew 'zsh'
+brew 'zstd'
+
+tap 'homebrew/bundle'
+
+tap 'homebrew/cask-fonts'
+cask 'font-meslo-lg-nerd-font'
+
+tap 'homebrew/services'
+
+tap 'homebrew/cask'
+cask 'mpv'
+cask 'xquartz'
+
+tap 'rcmdnk/file'
+brew 'brew-file'
+
+tap 'romkatv/powerlevel10k'
