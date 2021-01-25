@@ -82,7 +82,6 @@ brew 'pipenv'
 brew 'pixman'
 brew 'pkg-config'
 brew 'popt'
-brew 'python@3.8'
 brew 'python@3.9'
 brew 'rav1e'
 brew 'readline'
@@ -117,12 +116,8 @@ brew 'zimg'
 brew 'zsh'
 brew 'zstd'
 
-tap 'homebrew/bundle'
-
 tap 'homebrew/cask-fonts'
 cask 'font-meslo-lg-nerd-font'
-
-tap 'homebrew/services'
 
 tap 'homebrew/cask'
 cask 'mpv'
@@ -130,5 +125,3 @@ cask 'xquartz'
 
 tap 'rcmdnk/file'
 brew 'brew-file'
-
-tap 'romkatv/powerlevel10k'
