@@ -1,7 +1,3 @@
-# This is Git's per-user configuration file.
-[user]
-	name = lilincmu
-	email = lilincmu@gmail.com
 [alias]
 	st = status
 	ci = commit -m
@@ -11,3 +7,9 @@
         pom = push origin master
 [pull]
 	rebase = true
+[core]
+	excludesfile = ~/.gitignore_global
+
+# Allow local customizations in the .gitconfig_local file
+[include]
+	path = ~/.gitconfig_local
