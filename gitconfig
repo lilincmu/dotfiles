@@ -3,8 +3,13 @@
 	ci = commit -m
 	br = branch
 	co = checkout
-        rsh = reset --soft HEAD^
-        pom = push origin master
+    rsh = reset --soft HEAD^
+    pom = push origin master
+	com = checkout master
+	cp = cherry-pick
+	pl = pull
+	au = !"git ls-files -om | xargs git add"
+	unstage = restore --staged
 [pull]
 	rebase = true
 [core]
