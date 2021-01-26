@@ -1,13 +1,15 @@
 [alias]
 	st = status
 	ci = commit -m
-	br = branch
 	co = checkout
+	br = branch
+	pl = pull
+	dh = diff HEAD~
+	cp = cherry-pick
+	aa = add --all :/
 	rsh = reset --soft HEAD^
 	pom = push origin master
 	com = checkout master
-	cp = cherry-pick
-	pl = pull
 	au = !"git ls-files -om | xargs git add"
 	unstage = restore --staged
 [pull]

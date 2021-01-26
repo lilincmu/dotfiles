@@ -129,3 +129,11 @@ fi
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+
+# History
+HISTSIZE=1048576
+HISTFILE="$HOME/.zsh_history"
+SAVEHIST=$HISTSIZE
+setopt appendhistory     #Append history to the history file (no overwriting)
+setopt sharehistory      #Share history across terminals
+setopt incappendhistory  #Immediately append to the history file, not just when a term is killed
