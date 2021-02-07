@@ -14,6 +14,7 @@
     ~/.p10k.zsh:
     ~/.vimrc:
     ~/.tmux.conf:
+    ~/.tmux/plugins/tpm:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.config/brewfile/Brewfile:
