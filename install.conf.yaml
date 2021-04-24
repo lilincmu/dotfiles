@@ -12,6 +12,7 @@
     ~/.zshrc:
     ~/.oh-my-zsh:
     ~/.p10k.zsh:
+    ~/.bin:
     ~/.vimrc:
     ~/.tmux.conf:
     ~/.tmux/plugins/tpm:

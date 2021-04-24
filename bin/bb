@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# usage: bb [trackpad|airpods] to connect the device
+
+CMD="blueutil"
+MAC_TRACKPAD="64-c7-53-ed-d5-2a"
+MAC_AIR_PODS="0c-3b-50-6b-69-13"
+
+case $1 in
+trackpad)
+  DEVICE=$MAC_TRACKPAD
+  ;;
+
+airpods)
+  DEVICE=$MAC_AIR_PODS
+  ;;
+esac
+
+while [ "$($CMD --is-connected "$DEVICE")" -eq 0 ]; do
+  echo "Connecting $1..."
+  $CMD --connect $DEVICE >/dev/null 2>&1 &
+  sleep 5
+done
