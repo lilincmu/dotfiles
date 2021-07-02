@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# usage: kp [port number] to kill process using the port
+
+echo "killing processing using port $1..."
+lsof -ti:$1 | xargs kill -9
+
