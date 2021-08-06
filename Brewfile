@@ -107,7 +107,6 @@ brew 'pixman'
 brew 'pkg-config'
 brew 'popt'
 brew 'protobuf'
-brew 'python@3.8'
 brew 'python@3.9'
 brew 'rav1e'
 brew 'readline'
@@ -131,6 +130,7 @@ brew 'unbound'
 brew 'utf8proc'
 brew 'vapoursynth'
 brew 'webp'
+brew 'wget'
 brew 'x264'
 brew 'x265'
 brew 'xorgproto'
@@ -149,11 +149,15 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 cask 'font-meslo-lg-nerd-font'
 
+tap 'homebrew/services'
+
 tap 'homebrew/cask'
 cask 'atom'
-cask 'docker'
+cask 'baidunetdisk'
+cask 'dbeaver-community'
 cask 'hammerspoon'
 cask 'karabiner-elements'
+cask 'mpv'
 cask 'postman'
 cask 'vagrant'
 cask 'virtualbox'
@@ -167,3 +171,9 @@ brew 'brew-file'
 
 tap 'stripe/stripe-cli'
 brew 'stripe'
+
+# App Store applications
+mas 'Day One Classic (1.10.6)', id: 422304217
+mas 'GoodNotes (5.6.54)', id: 1444383602
+mas 'Microsoft OneNote (16.48)', id: 784801555
+mas 'The Unarchiver (4.3.0)', id: 425424353
