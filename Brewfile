@@ -12,7 +12,6 @@ brew 'c-ares'
 brew 'cairo'
 brew 'coreutils'
 brew 'dav1d'
-brew 'docker'
 brew 'ffmpeg'
 brew 'flac'
 brew 'fontconfig'
@@ -173,7 +172,4 @@ tap 'stripe/stripe-cli'
 brew 'stripe'
 
 # App Store applications
-mas 'Day One Classic (1.10.6)', id: 422304217
-mas 'GoodNotes (5.6.54)', id: 1444383602
 mas 'Microsoft OneNote (16.48)', id: 784801555
-mas 'The Unarchiver (4.3.0)', id: 425424353
