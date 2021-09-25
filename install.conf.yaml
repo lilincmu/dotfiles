@@ -13,12 +13,10 @@
     ~/.oh-my-zsh:
     ~/.p10k.zsh:
     ~/.bin:
-    ~/.vimrc:
     ~/.tmux.conf:
     ~/.tmux/plugins/tpm:
     ~/.gitconfig:
     ~/.gitignore_global:
-    ~/.config/brewfile/Brewfile:
 
 - link:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:

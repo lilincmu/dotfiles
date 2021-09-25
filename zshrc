@@ -120,11 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # fzf
 export FZF_BASE=/usr/local/opt/fzf
 
-# homebrew-file
-if [ -f $(brew --prefix)/etc/brew-wrap ];then
-  source $(brew --prefix)/etc/brew-wrap
-fi
-
 # Allow local customizations in the ~/.zshrc_local_after file
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
